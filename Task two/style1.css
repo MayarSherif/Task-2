@@ -1,0 +1,56 @@
+@media(min-width:768px){
+    body {
+        background-color: rgb(47, 49, 47);
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .Logo{
+    
+        width: fit-content;
+        height: fit-content;
+        width: 250px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 50%;
+        transform: translate(-50%); 
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Text{
+        padding: 5px;
+    }
+    /* --------------------Left Items---------------------------- */
+    .Left{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    
+    .Left-Items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    .Item{
+        padding: 10px;
+        color: rgb(173, 171, 170);
+    }
+    
+    /* ----------------------Right Paragraph------------------------ */
+    
+    .Right{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 150px;
+        margin-left: 350px;
+        margin-right: 50px;
+        color: rgb(173, 171, 170); 
+    }
+    }

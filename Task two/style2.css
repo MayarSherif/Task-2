@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.container{
+    display: flex;
+    width: 85%;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto
+}
+
+.Text{
+    margin-top: 125px;
+}
+
+.only{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 200px 0 0 140px;
+}
+
+.price{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    margin: 0px 0 0 85px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 125px 0 0 85px;
+    font-weight: bold;
+    background-color: white;
+    color: grey 
+}
+
+.Box-1{
+    order: 1;
+    background: rgb(255,151,24);
+    background: linear-gradient(315deg, rgb(230, 126, 0) 0%, rgba(252,198,57,1) 100%, rgba(243,240,233,1) 100%);
+    width: 325px;
+    height: 500px;
+    border-radius: 3px
+}
+
+.Box-2{
+    order: 2;
+    background-color: #08e1ae;
+    background-image: linear-gradient(315deg, #068d4a 0%, #00ca65b4 74%);
+    width: 325px;
+    height: 500px;
+    border-radius: 3px
+}
+
+.Box-3{
+    order: 3;
+    background: rgb(116,148,248);
+    background: linear-gradient(315deg, rgb(19, 46, 126) 0%, rgba(72,166,254,1) 100%, rgba(240,241,242,1) 100%);
+    width: 325px;
+    height: 500px;
+    border-radius: 3px
+}
